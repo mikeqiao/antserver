@@ -1,0 +1,52 @@
+{
+	"LenStackBuf":4096,
+	"LogLevel":0,
+	"LogPath": "./",
+	"LogFlag": 0,
+	"ServiceInfo":
+	{
+		"ServerId": 2001,
+		"ServerType": 2,
+		"ServerVersion": 1,
+		"ServerName":"TestServer"
+	},
+	"Dbconfig":
+	{
+		"UserName": "tysh",
+		"Password": "tianyishenghui",
+		"Ip":"47.95.217.220",
+		"Port":"3306",
+		"DbName":"tysh3"
+	},
+	"ConnConf":
+	[
+		{
+			"UId": 1001,
+			"Name": "conn1",
+			"Nettype": 1,
+			"PendingWriteNum": 102400,
+			"MaxMsgLen": 409600,
+			"Processortype": 1,
+			"ConnAddr":"192.168.0.105:7101",
+			"LenMsgLen": 4,
+			"Pid":1,
+			"Version":1
+		}
+	],
+	"ServerConf":
+	[
+		{
+		"UId": 2001,
+		"Name": "Out",
+		"Nettype": 2,
+		"MaxConnNum": 100000,
+		"PendingWriteNum": 102400,
+		"MaxMsgLen": 409600,
+		"Processortype": 1,
+		"ListenAddr": "192.168.0.105:7201",
+		"LenMsgLen": 4,
+		"Pid":1,
+		"Version":1
+		}
+	]
+}
