@@ -1,0 +1,9 @@
+2019-04-18 11:18:06.834877 c:/go/package/src/github.com/mikeqiao/ant/db/mysql/mysql.go	line:50:[debug] connnect mysql success
+2019-04-18 11:18:06.923785 c:/go/package/src/github.com/mikeqiao/ant/db/redis/redis.go	line:49:[debug] connnect redis success
+2019-04-18 11:18:06.923785 c:/go/package/src/github.com/mikeqiao/ant/ant.go	line:20:[debug] server is start
+2019-04-18 11:18:06.923785 c:/go/package/src/github.com/mikeqiao/ant/network/client.go	line:53:[debug] server.ListenAddr: 192.168.0.105:7101
+2019-04-18 11:18:07.926779 c:/go/package/src/github.com/mikeqiao/ant/net/client.go	line:77:[release] connect to 192.168.0.105:7101 error: dial tcp 192.168.0.105:7101: connectex: No connection could be made because the target machine actively refused it.
+2019-04-18 11:18:11.929684 c:/go/package/src/github.com/mikeqiao/ant/net/client.go	line:77:[release] connect to 192.168.0.105:7101 error: dial tcp 192.168.0.105:7101: connectex: No connection could be made because the target machine actively refused it.
+2019-04-18 11:18:15.930665 c:/go/package/src/github.com/mikeqiao/ant/net/client.go	line:77:[release] connect to 192.168.0.105:7101 error: dial tcp 192.168.0.105:7101: connectex: No connection could be made because the target machine actively refused it.
+2019-04-18 11:18:19.932367 c:/go/package/src/github.com/mikeqiao/ant/net/client.go	line:77:[release] connect to 192.168.0.105:7101 error: dial tcp 192.168.0.105:7101: connectex: No connection could be made because the target machine actively refused it.
+2019-04-18 11:18:23.932697 c:/go/package/src/github.com/mikeqiao/ant/net/client.go	line:77:[release] connect to 192.168.0.105:7101 error: dial tcp 192.168.0.105:7101: connectex: No connection could be made because the target machine actively refused it.

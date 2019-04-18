@@ -18,6 +18,14 @@
 		"Port":"3306",
 		"DbName":"tysh3"
 	},
+	"Redisconfig":
+	{		
+		"Ip":"47.95.217.220",
+		"Port":"6379",
+		"Password": "tianyishenghui",
+		"MaxIdle":10,
+		"Life":30
+	},
 	"ConnConf":
 	[
 		{

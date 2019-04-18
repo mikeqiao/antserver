@@ -1,7 +1,8 @@
 package f
 
 import (
-	"github.com/mikeqiao/antserver/function/db"
+	"github.com/mikeqiao/antserver/function/mysql"
+	"github.com/mikeqiao/antserver/function/redis"
 	p "github.com/mikeqiao/common/processor"
 )
 
@@ -10,11 +11,13 @@ type Function struct {
 }
 
 func (f *Function) Init() {
-	db.InitDB()
+	mysql.Init()
+	redis.Init()
 	p.SetP()
 }
 func (f *Function) Close() {
-	db.Close()
+	mysql.Close()
+	redis.Close()
 }
 
 var FF = new(Function)
